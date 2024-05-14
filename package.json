@@ -1,0 +1,25 @@
+{
+  "name": "vite-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --mode dev",
+    "build": "vite build --mode dev",
+    "staging": "vite --mode staging",
+    "build:staging": "vite build --mode staging",
+    "prod": "vite --mode prod",
+    "build:prod": "vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd": "^5.17.2",
+    "env-cmd": "^10.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.0"
+  }
+}
